@@ -47,7 +47,7 @@ background-size: cover;
 
   h1{
     text-align:center;
-    font-family: 'Rubik Maze', cursive; 
+    font-family: 'Permanent Marker', cursive;
     font-size:100px;
     color:rgb(10, 189, 213);
   }
@@ -142,6 +142,7 @@ span.fade {
 p{
   font-family: 'Arimo', sans-serif;
   color: aliceblue;
+  margin: 50px;
 }
 /* Projects */
 

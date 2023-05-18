@@ -29,16 +29,12 @@
   grid-area:auto;
   max-width:700px; 
   border-style:solid;
-  border-color: rgb(10, 189, 213);
+  border-color: rgb(11, 71, 127);
 }
 
 body {
 text-align: center;
 font-family: helvetica;
-background-image: url("https://cdn.wallpapersafari.com/3/93/juGSXV.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
 }
 
 
@@ -46,7 +42,7 @@ background-size: cover;
     text-align:center;
     font-family: 'Permanent Marker', cursive;
     font-size:100px;
-    color:rgb(10, 189, 213);
+    color:rgb(11, 71, 127);
   }
 
 
@@ -60,7 +56,7 @@ span.fade {
   }
 /* about me */
   .aboutme{
-    color:white;
+    color:rgb(11, 71, 127);
     text-size-adjust: 16px;
     flex:1;
     border:5px black;
@@ -177,9 +173,25 @@ p{
     opacity: 0.7;
 }
 
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1; 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 @media all and (max-width: 500px) {
   .navigation {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
-}

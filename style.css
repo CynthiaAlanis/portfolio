@@ -22,9 +22,9 @@
   }
 }
 .me {
-  width: 25%;
+  /* width: 25%; */
   border-radius:10px;
-  width: 170px;
+  width: 180px;
   height:220px;
   grid-area:auto;
   max-width:700px; 
@@ -135,17 +135,16 @@ p{
 
 /* Projects */
 .thumbnail{
-  display:absolute;
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  
 }
 
-.img-responsive {
-  margin: 10px;
-  border: 3px solid #000;
-  width:20%;
-  max-width: 68.75rem;
-
-}  
-
+.img-responsive{
+width: 35%;
+}
 .img-responsive:hover{
   transform: scale(1.5, 1.5);
   margin: 2rem;
@@ -157,9 +156,7 @@ p{
 
 
 
-.myCaption {
-  text-align: center;
-}
+
 
 
 /* contact */
@@ -198,3 +195,4 @@ p{
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+}

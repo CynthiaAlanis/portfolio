@@ -134,16 +134,14 @@ p{
 
 /* Projects */
 .thumbnail{
-  max-width: 68.75rem;
-  margin: auto;
-  text-align: center;
-  margin-top: 2.5rem;
+  display: inline-block;
   
 }
 
 .img-responsive{
 width: 35%;
 }
+
 .img-responsive:hover{
   transform: scale(1.5, 1.5);
   margin: 2rem;
@@ -168,9 +166,9 @@ width: 35%;
   margin: 5px 2px;
 }
 
-/* .ct:hover {
+.ct:hover {
     opacity: 0.7;
-} */
+}
 
 #myVideo {
   width: 100vw;
